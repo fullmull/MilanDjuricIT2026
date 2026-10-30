@@ -297,7 +297,12 @@ form {
     width: 90%;
     text-align: center;
 }
-
+.opis .naziv-sata {
+    color: #ffd700;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 .cena {
     color: #ffd700;
     margin-bottom: 10px;
