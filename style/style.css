@@ -55,6 +55,7 @@ footer {
     background-image: url('../img/backgroundimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +156,7 @@ nav ul li:hover {
     color: #f2f2f2;
     font-size: 2rem;
     font-style: italic;
-    text-align: center;
+    text-align: justify center;
     width: fit-content;
     max-width: 50%;
     margin: auto; 
@@ -210,14 +211,18 @@ a {
     color: #f2f2f2;
     font-size: 1.5em;
     font-style: italic;
-    text-align: center;
-    max-width: 35%;
+    text-align: justify center;
+    max-width: 50%;
     margin: 0 auto;
     padding: 0.8em 1em;
     background-color: rgba(51,51,51, 0.9);
     border-radius: 25px;
 }
-
+@media only screen and (max-width: 768px) {
+    .text {
+      font-size: 1em;
+    }
+}
 form {
     text-align: center;
     color: #f2f2f2;
