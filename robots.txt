@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:/img/
+
+sitemap:https://fullmull.github.io/MilanDjuricIT2026/sitemap.xml
